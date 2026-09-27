@@ -52,7 +52,6 @@ flowchart TD
     Storage -->|Load| Model
 ```
 
-> **Tip:** You can copy the diagram code above and paste it into [mermaid.live](https://mermaid.live) to download it as a high-resolution PNG or SVG image.
 
 ---
 
