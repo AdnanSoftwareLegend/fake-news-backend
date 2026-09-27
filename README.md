@@ -1,24 +1,25 @@
-# 📰 Verifi.AI - AI-Powered Fake News Detector
+📰 Verifi.AI - AI-Powered Fake News Detector
 
 Verifi.AI is a modern full-stack Machine Learning web application that uses Natural Language Processing (NLP) and Machine Learning classifiers to analyze and predict the authenticity (Real vs Fake) of news articles, social media posts, or statements.
 
----
+🚀 Features
 
-## 🚀 Features
+Futuristic UI & Glassmorphism Design: Built with Next.js 14, Tailwind CSS, Lucide Icons, and dynamic animations in a sleek dark-themed interface.
 
-- **Futuristic UI & Glassmorphism Design:** Built with Next.js 14, Tailwind CSS, Lucide Icons, and dynamic animations in a sleek dark-themed interface.
-- **Instant News Verification:** Delivers fast and accurate verdicts using NLP TF-IDF vectorization and an ML classifier.
-- **Authenticity Meter & Stats:** Displays a verdict indicator along with a live character and word counter.
-- **RESTful Machine Learning API:** Ultra-fast backend service powered by FastAPI with full CORS support.
-- **Sample Presets:** Pre-configured test sample buttons for quick, one-click testing.
+Instant News Verification: Delivers fast and accurate verdicts using NLP TF-IDF vectorization and an ML classifier.
 
----
+Authenticity Meter & Stats: Displays a verdict indicator along with a live character and word counter.
 
-## 🏗️ System Architecture
+RESTful Machine Learning API: Ultra-fast backend service powered by FastAPI with full CORS support.
+
+Sample Presets: Pre-configured test sample buttons for quick, one-click testing.
+
+📸 Application Preview
+
+🏗️ System Architecture
 
 The following visual diagram illustrates the complete flow between the User, Next.js Frontend, FastAPI Backend, and Machine Learning Model Artifacts:
 
-```mermaid
 flowchart TD
     %% Custom Styling for High-Contrast & Wide Architecture Diagram
     classDef darkBox fill:#0f172a,stroke:#38bdf8,stroke-width:3px,color:#ffffff,font-weight:bold,rx:12px,ry:12px;
@@ -45,30 +46,33 @@ flowchart TD
 
     Storage -->|Load| TFIDF
     Storage -->|Load| Model
-```
 
-> **Tip:** You can copy the diagram code above and paste it into [mermaid.live](https://mermaid.live) to download it as a high-resolution PNG or SVG image.
 
----
 
-## 🛠️ Tech Stack
+Tip: You can copy the diagram code above and paste it into mermaid.live to download it as a high-resolution PNG or SVG image.
 
-### **Frontend**
-- **Framework:** Next.js (React)
-- **Styling:** Tailwind CSS, Glassmorphism UI
-- **Icons:** Lucide React
+🛠️ Tech Stack
 
-### **Backend**
-- **Framework:** FastAPI (Python)
-- **Server:** Uvicorn
-- **ML & Data Processing:** Scikit-Learn, Joblib, TF-IDF Vectorizer
-- **Middleware:** CORSMiddleware, python-multipart
+Frontend
 
----
+Framework: Next.js (React)
 
-## 📁 Project Structure
+Styling: Tailwind CSS, Glassmorphism UI
 
-```text
+Icons: Lucide React
+
+Backend
+
+Framework: FastAPI (Python)
+
+Server: Uvicorn
+
+ML & Data Processing: Scikit-Learn, Joblib, TF-IDF Vectorizer
+
+Middleware: CORSMiddleware, python-multipart
+
+📁 Project Structure
+
 fake-news-detector/
 ├── fake-news-backend/
 │   ├── app.py                   # FastAPI Application & Endpoints
@@ -80,15 +84,12 @@ fake-news-detector/
     │   └── page.tsx             # Next.js UI Main Component
     ├── public/
     └── package.json
-```
 
----
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
-### **1. Backend Setup (FastAPI)**
+1. Backend Setup (FastAPI)
 
-```bash
 # Navigate to backend directory
 cd fake-news-backend
 
@@ -106,14 +107,12 @@ pip install -r requirements.txt
 
 # Run FastAPI server
 uvicorn app:app --reload --port 8000
-```
-Backend API will be running live at: `http://127.0.0.1:8000`
 
----
 
-### **2. Frontend Setup (Next.js)**
+Backend API will be running live at: http://127.0.0.1:8000
 
-```bash
+2. Frontend Setup (Next.js)
+
 # Navigate to frontend directory
 cd fake-news-frontend
 
@@ -122,27 +121,25 @@ npm install
 
 # Run Development Server
 npm run dev
-```
-Frontend will be running live at: `http://localhost:3000`
 
----
 
-## 🔌 API Endpoint
+Frontend will be running live at: http://localhost:3000
 
-### `POST /predict`
+🔌 API Endpoint
 
-- **Content-Type:** `application/x-www-form-urlencoded`
-- **Body:** `news` (string)
+POST /predict
 
-#### **Example Response:**
-```json
+Content-Type: application/x-www-form-urlencoded
+
+Body: news (string)
+
+Example Response:
+
 {
   "prediction": "Real News"
 }
-```
 
----
 
-## 🛡️ License
+🛡️ License
 
 Distributed under the MIT License.
