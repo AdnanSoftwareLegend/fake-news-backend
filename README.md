@@ -132,8 +132,3 @@ Frontend will be running live at: `http://localhost:3000`
 {
   "prediction": "Real News"
 }
-```
-
-## 🛡️ License
-
-Distributed under the MIT License.
