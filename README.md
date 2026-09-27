@@ -2,17 +2,7 @@
 
 Verifi.AI is a modern full-stack Machine Learning web application that uses Natural Language Processing (NLP) and Machine Learning classifiers to analyze and predict the authenticity (Real vs Fake) of news articles, social media posts, or statements.
 
----
 
-## 🚀 Features
-
-- **Futuristic UI & Glassmorphism Design:** Built with Next.js 14, Tailwind CSS, Lucide Icons, and dynamic animations in a sleek dark-themed interface.
-- **Instant News Verification:** Delivers fast and accurate verdicts using NLP TF-IDF vectorization and an ML classifier.
-- **Authenticity Meter & Stats:** Displays a verdict indicator along with a live character and word counter.
-- **RESTful Machine Learning API:** Ultra-fast backend service powered by FastAPI with full CORS support.
-- **Sample Presets:** Pre-configured test sample buttons for quick, one-click testing.
-
----
 ## 📸 Application Preview
 
 <img width="860" height="569" alt="image" src="https://github.com/user-attachments/assets/505354a7-444b-4ee8-91ce-d1093533dc63" />
@@ -51,6 +41,19 @@ flowchart TD
     Storage -->|Load| TFIDF
     Storage -->|Load| Model
 ```
+
+
+---
+
+## 🚀 Features
+
+- **Futuristic UI & Glassmorphism Design:** Built with Next.js 14, Tailwind CSS, Lucide Icons, and dynamic animations in a sleek dark-themed interface.
+- **Instant News Verification:** Delivers fast and accurate verdicts using NLP TF-IDF vectorization and an ML classifier.
+- **Authenticity Meter & Stats:** Displays a verdict indicator along with a live character and word counter.
+- **RESTful Machine Learning API:** Ultra-fast backend service powered by FastAPI with full CORS support.
+- **Sample Presets:** Pre-configured test sample buttons for quick, one-click testing.
+
+---
 
 
 ---
