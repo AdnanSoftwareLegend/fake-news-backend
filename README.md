@@ -111,7 +111,7 @@ pip install -r requirements.txt
 # Run FastAPI server
 uvicorn app:app --reload --port 8000
 ```
-Backend API will be running live at: `http://127.0.0.1:8000`
+Backend API will be running live at: `https://fake-news-api-fvab.onrender.com/`
 
 ---
 
@@ -127,7 +127,7 @@ npm install
 # Run Development Server
 npm run dev
 ```
-Frontend will be running live at: `http://localhost:3000`
+Frontend will be running live at: `https://fake-news-frontend-wine.vercel.app/`
 
 ---
 
