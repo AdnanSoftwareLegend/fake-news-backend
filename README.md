@@ -13,6 +13,11 @@ Verifi.AI is a modern full-stack Machine Learning web application that uses Natu
 - **Sample Presets:** Pre-configured test sample buttons for quick, one-click testing.
 
 ---
+## 📸 Application Preview
+
+<img width="860" height="569" alt="image" src="https://github.com/user-attachments/assets/505354a7-444b-4ee8-91ce-d1093533dc63" />
+
+
 
 ## 🏗️ System Architecture
 
